@@ -3,7 +3,7 @@ permite a ionic enrutar correctamente el contenido
 -->
  <ion-view>
       <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+        <h1 class="title">IONIC APPS</h1>
       </ion-header-bar>
       <ion-content>
       	<div>{{welcome}}</div>
@@ -11,8 +11,43 @@ permite a ionic enrutar correctamente el contenido
       	<input type="checkbox" name="" ng-model="dato2">
       	<h2 ng-show="dato1">Dato :1</h2>
       	<h2 ng-hide="dato2">Dato :2</h2>
+      	<div class="list card">
+      		<DIV class="item item-avatar">
+      			<img src="../img/ionic.png">
+      			<h2>Carl Johann Grimark</h2>
+      			<p>
+      				Lorem ipsum dolor sit amet, 
+      			</p>
+      		</DIV>
+      		<div class="item item-body">
+      			<img src="../img/grimmark.jpg" height="200px">
+      			<p>
+      				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      			</p>
+      			<a href="#" class="subdued">Likes</a>
+      			<a href="#" class="subdued">Comment <b>2</b></a>
+      		</div>
+      	</div>
+
+      	<ion-list show-delete="true">
+      		<ion-item href="#">Christian Rivel <ion-delete-button class="ion-minus-circled" ng-click="algo()"></ion-delete-button></ion-item>
+      		<ion-item href="#">Andreas Johansson</ion-item>
+      		<ion-item href="#">Linus Colson</ion-item>
+      		
+      	</ion-list>
       </ion-content>
     </ion-view>
     <!--
-
+	ng son las directivas
+	ng-app
+	ng-controller
+	ng-model
+	ng-change
+	ng-clicl
+	ng-blind
     -->
