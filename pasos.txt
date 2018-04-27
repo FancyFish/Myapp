@@ -1,0 +1,29 @@
+instalar node
+instalar cordova
+instalar ionic
+instalar gulp
+instalar bower
+instalar sass
+
+//sitios importantes
+ionicframework.com
+forum
+forum.ionicframework.com
+//
+
+pasamos a crear la app
+ionic start Myapp  --type ionic1
+plantilla -> blank
+
+Ubicarse en la carpeta creada
+dir y enter
+arrastrar
+
+//
+ionic serve
+** VEMOS EL RESULTADO
+
+//pLANTILLAS
+
+creamos app
+seleccionamos sideMenu
